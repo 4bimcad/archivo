@@ -3000,6 +3000,18 @@
 						border: 0;
 					}
 
+					#header nav > ul > li a:not(.button):hover {
+						background-color: brown; /* Коричневий колір при наведенні */
+					}
+					
+					#header nav > ul > li a:not(.button):active {
+						background-color: brown; /* Коричневий колір при активності*/
+					}
+
+					#header nav > ul > li a.active-page {
+						background-color: brown; /* Цвет для активной страницы */
+					}
+
 						#header nav > ul > li a:not(.button).icon:before {
 							color: #999;
 							margin-right: 0.5em;
